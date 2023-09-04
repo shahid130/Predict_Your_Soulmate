@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="759.0" prefWidth="1095.0" style="-fx-background-color: rgb(253,125,123);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.SearchController">
+   <children>
+      <ImageView fitHeight="738.0" fitWidth="1057.0" layoutX="19.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Color.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="59.0" layoutY="26.0" prefHeight="705.0" prefWidth="987.0" style="-fx-background-color: rgb(255,255,255);">
+         <children>
+            <Text fill="#f50655" layoutX="39.0" layoutY="66.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Search" wrappingWidth="216.46484375">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Text>
+            <Text layoutX="41.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIVISION :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="Division" layoutX="167.0" layoutY="178.0" onAction="#DivisionOnAction" prefHeight="44.0" prefWidth="216.0" style="-fx-background-color: #ffffc3;" />
+            <TableView fx:id="table_users" layoutX="41.0" layoutY="296.0" onMouseClicked="#getSelected" prefHeight="331.0" prefWidth="861.0" style="-fx-background-color: #ffeecc;">
+               <columns>
+                  <TableColumn fx:id="colId" prefWidth="27.0" style="-fx-background-color: #ffffc3;" text="ID" />
+                  <TableColumn fx:id="colName" prefWidth="125.0" style="-fx-background-color: #ffffc3;" text="Name" />
+                  <TableColumn fx:id="colGender" prefWidth="104.0" style="-fx-background-color: #ffffc3;" text="Gender" />
+                  <TableColumn fx:id="colAge" prefWidth="44.0" style="-fx-background-color: #ffffc3;" text="Age" />
+                  <TableColumn fx:id="colReligion" prefWidth="114.0" style="-fx-background-color: #ffffc3;" text="Religion" />
+                  <TableColumn fx:id="colDivision" prefWidth="89.0" style="-fx-background-color: #ffffc3;" text="Division" />
+                  <TableColumn fx:id="colProfession" minWidth="2.0" prefWidth="105.0" style="-fx-background-color: #ffffc3;" text="Profession" />
+                  <TableColumn fx:id="colEmail" prefWidth="252.0" style="-fx-background-color: #ffffc3;" text="Email" />
+               </columns>
+            </TableView>
+            <Button fx:id="btnSearch" layoutX="38.0" layoutY="226.0" mnemonicParsing="false" onAction="#search_users" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Search" textFill="#222020">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Text layoutX="39.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOOK FOR :">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="GenderSelection" layoutX="167.0" layoutY="113.0" onAction="#GenderSelectionOnAction" prefHeight="44.0" prefWidth="216.0" style="-fx-background-color: #ffffc3;" visibleRowCount="4" />
+            <Button fx:id="searchReturn" layoutX="36.0" layoutY="646.0" mnemonicParsing="false" onAction="#searchReturnOnAction" prefHeight="45.0" prefWidth="170.0" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Back" textFill="#2c2b2b">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="249.0" fitWidth="243.0" layoutX="659.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@168009770_852728935308670_7875686563068745353_n.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

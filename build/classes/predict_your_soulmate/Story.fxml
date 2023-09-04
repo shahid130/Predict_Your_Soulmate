@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.StoryController">
+   <children>
+      <AnchorPane layoutX="-9.0" layoutY="-3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="769.0" prefWidth="1208.0" style="-fx-background-color: rgb(253,125,123);">
+         <children>
+            <ImageView fitHeight="690.0" fitWidth="1169.0" layoutX="29.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rainbow.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="44.0" layoutY="61.0" prefHeight="656.0" prefWidth="1119.0" style="-fx-background-color: #ffffc3;">
+               <children>
+                  <Text fill="#e81717" layoutX="285.0" layoutY="85.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="Happy  Stories" wrappingWidth="364.38818359375">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="53.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="btn2" layoutX="42.0" layoutY="269.0" mnemonicParsing="false" onAction="#btn2OnAction" prefHeight="52.0" prefWidth="212.0" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Rose and Jack" textFill="#282626">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn3" layoutX="42.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn3OnAction" prefHeight="52.0" prefWidth="234.0" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Foyes and Rimu" textFill="#171515">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="28.0" />
+                     </font>
+                  </Button>
+                  <Text fx:id="RoseAndJackStory" layoutX="363.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I got an interest in my &quot;predict your soulmate&quot;  profile from her. Then I got called by her family. Later on we noticed that we are from same hometown. Its love marriage arranged by &quot;predict your soulmate&quot; . Thanks &quot;predict your soulmate&quot; . Warm Regards, Rose &amp; Jack" visible="false" wrappingWidth="573.6708984375">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="RajAndFihi" layoutX="386.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi I don't have enough word to Thank you &quot;predict your soulmate&quot; because I have never expected that I will get a 100% perfect match which I have found her here. It was like nearly impossible to get a girl like and for her boy like me, because we are belonging from a rural farmer family where our family are not educated at all and I live in a foreign country so we have like huge difference in thinking but after meeting Raj I am very relaxed because I have always tensed about my partner whether she will fit with family and me or not as I am very modern. According to me, Predict Your Soulmate has done things perfect for me and her which was nearly impossible. I am so grateful that you guys got me a wonderful gift of life and our family are so happy to see us together. Moreover, we are getting married soon. Please let me if I can be helpful to you guys anywhere." visible="false" wrappingWidth="573.6708984375">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="FoysAndRimu" layoutX="415.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We first met through &quot;predict your soulmate&quot; only. Both of us liked each other photographs initially and then families talked to each other. Once families were okay, they gave us each others number and then we started our talks. For some reason we fought with each other in the first week but we resolved the issue and tried to give it an another chance. Giving it a second chance was a good decision and as our bond became stronger and we have started growing together." visible="false" wrappingWidth="515.6708984375">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="btnStoryBack" layoutX="50.0" layoutY="547.0" mnemonicParsing="false" onAction="#btnStoryBackOnAction" prefHeight="52.0" prefWidth="189.0" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Back" textFill="#171616">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="28.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="157.0" fitWidth="153.0" layoutX="925.0" layoutY="-46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@168009770_852728935308670_7875686563068745353_n.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="btn1" layoutX="83.0" layoutY="238.0" mnemonicParsing="false" onAction="#btn1OnAction" prefHeight="52.0" prefWidth="203.0" style="-fx-background-color: #F7DC6F; -fx-background-radius: 90;" text="Raj and Fihi" textFill="#282323">
+               <font>
+                  <Font name="Calibri Bold Italic" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

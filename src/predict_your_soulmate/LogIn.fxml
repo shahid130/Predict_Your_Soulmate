@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="721.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.LogInController">
+   <children>
+      <ImageView fitHeight="729.0" fitWidth="721.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Love_Image1.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="24.0" layoutY="26.0" prefHeight="676.0" prefWidth="673.0" style="-fx-background-color: rgb(254,185,142);">
+         <children>
+            <Text layoutX="63.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+            <Text layoutX="63.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tfInputEmail" layoutX="208.0" layoutY="224.0" prefHeight="42.0" prefWidth="350.0" />
+            <PasswordField fx:id="tfInputPassword" layoutX="208.0" layoutY="312.0" prefHeight="42.0" prefWidth="350.0" />
+            <Button fx:id="btn_login" layoutX="418.0" layoutY="398.0" mnemonicParsing="false" onAction="#LogIn" prefHeight="51.0" prefWidth="145.0" style="-fx-background-color: gray; -fx-background-radius: 90;" text="Log In" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnReturn" layoutX="95.0" layoutY="429.0" mnemonicParsing="false" onAction="#ReturnToHomePage" prefHeight="44.0" prefWidth="238.0" style="-fx-background-color: gray; -fx-background-radius: 90;" text="Return to Home Page" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

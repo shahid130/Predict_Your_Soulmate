@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="988.0" style="-fx-background-color: rgb(253,125,123);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.ABOUT_US_FINALController">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="898.0" layoutX="45.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rainbow.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="95.0" prefHeight="664.0" prefWidth="776.0" style="-fx-background-color: white;">
+         <children>
+            <Text fill="#e81717" layoutX="271.0" layoutY="52.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="ABOUT US">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@166583608_442391300384367_2443947231356664494_n.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="532.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@168427059_966671623871392_7868542084533209274_n.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="292.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@167348507_356780695671470_746692618324739679_n.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="27.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="292.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="526.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="82.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fatema Tuj Johora Faria ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="27.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="73.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19.01.04.142">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="589.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sanjana Akter Roshni">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="291.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="562.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19.01.04.127">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="353.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Md. Sahid Hasan ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="525.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID : ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="335.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19.01.04.130">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="335.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr.Abrar Abir">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="490.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&amp;">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="525.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ms.Moumita Choudhuri">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="#e81717" layoutX="414.0" layoutY="534.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="PROJECT SUBMITTED TO ">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+            <Line endX="164.0" layoutX="599.0" layoutY="609.0" startX="-281.0" strokeWidth="2.0" />
+            <Button fx:id="aboutUsReturn" layoutX="9.0" layoutY="588.0" mnemonicParsing="false" onAction="#aboutUsReturnOnAction" prefHeight="65.0" prefWidth="150.0" style="-fx-background-color: gray; -fx-background-radius: 90;" text="Back" textFill="#fff6f6">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

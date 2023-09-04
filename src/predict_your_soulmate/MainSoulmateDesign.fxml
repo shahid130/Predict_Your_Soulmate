@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="857.0" prefWidth="1236.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.MainSoulmateDesignController">
+   <effect>
+      <Blend />
+   </effect>
+   <children>
+      <ImageView fitHeight="843.0" fitWidth="564.0" layoutX="-1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Wedding.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#17a4eb" layoutX="597.0" layoutY="61.0" stroke="#c45447" strokeType="OUTSIDE" strokeWidth="2.0" text="PREDICT">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Text fill="#e10e0e" layoutX="796.0" layoutY="61.0" stroke="#108de0" strokeType="OUTSIDE" strokeWidth="2.0" text="YOUR">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Text fill="#e305b7" layoutX="942.0" layoutY="61.0" stroke="#2c3cf5" strokeType="OUTSIDE" strokeWidth="2.0" text="SOULMATE">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Line endX="194.0" endY="1.52587890625E-5" fill="#34f564" layoutX="985.0" layoutY="80.0" startX="-100.0" strokeWidth="3.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#c62e2e" />
+                  <Stop color="#2fa6c4" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Pane layoutX="564.0" layoutY="149.0" prefHeight="387.0" prefWidth="638.0" style="-fx-background-color: #ffc2b3;">
+         <children>
+            <Button fx:id="btnRegister" layoutX="454.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleBtn1" style="-fx-background-color: #ff9980; -fx-background-radius: 90;" text="Register" textFill="#a82b2b">
+               <font>
+                  <Font name="Calibri Bold" size="29.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLogin" layoutX="73.0" layoutY="228.0" mnemonicParsing="false" onAction="#LogInButtonOnAction" prefHeight="44.0" prefWidth="135.0" style="-fx-background-color: #ff9980; -fx-background-radius: 90;" text="Login" textFill="#940000">
+               <font>
+                  <Font name="Calibri Bold" size="31.0" />
+               </font>
+            </Button>
+            <Text fill="#e81717" layoutX="146.0" layoutY="143.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="REGISTER FOR FREE !">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="#e81717" layoutX="38.0" layoutY="62.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="FIND THE ONE WHO COMPLETES YOU ">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="314.0" fitWidth="519.0" layoutX="857.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@168009770_852728935308670_7875686563068745353_n.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
